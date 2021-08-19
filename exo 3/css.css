@@ -1,0 +1,77 @@
+#banniere{
+    height: 200px;
+    width: 800px;
+}
+.image_article, .image_blog {
+    height:100px;
+    width:200px;
+}
+
+body{
+    background-image: radial-gradient(#CCDAE0, #EDF2F4);
+}
+header, .titre_blog {
+    text-align:center;
+}
+
+h1{
+    color:#EF233C;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: Impact;
+}
+
+h3{
+    color:#2B2D42;
+    font-size: 25px;
+    font-weight:bold;
+    text-decoration: dashed underline;
+}
+
+article{
+    border: solid black 1px; 
+}
+
+.image_article, .image_blog{
+    display:block;
+    margin-left: auto;
+    margin-right:auto;
+    border:#8D99AE solid 2px;
+}
+
+.image_blog:hover{
+    transform: scale(1.5);
+}
+
+footer{
+    text-align: right;
+}
+
+ul{
+    list-style: none;
+}
+
+a:link{
+    color:#D90429 
+}
+
+a:visited{
+    color:grey;
+}
+
+a:hover{
+    color:#2B2D42;
+}
+
+span{
+    color:red;
+}
+
+#globe{
+    width: 50px;
+    height: 50px;
+}
+
+figure{
+    text-align:center;
+}

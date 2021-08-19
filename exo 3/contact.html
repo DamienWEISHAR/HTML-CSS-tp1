@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../exo 3/css.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <img id="banniere" src="../exo 3/banniere.jpg" alt="banniere" >
+        <h1>Bienvenue sur mon site</h1>
+        <nav>
+            <ul>
+                <li><a href="../exo 3/index.html">Accueil</a></li>
+                <li><a href="../exo 3/blog.html">Blog</a></li>
+                <li><a href="../exo 3/gallerie.html">Gallerie</a></li>
+                <li><a href="../exo 3/contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+        <section id="contact">
+            <form method="POST" action="page_fictive.php">
+                <fieldset>
+                    <legend>Contact</legend>
+                    <div>
+                        <label for="nom">Nom <span>*</span></label>
+                        <input type="text" name="nom" placeholder="Ex: Robert" required/><br>
+                    </div>
+                    <div>
+                        <label for="nom">E-mail<span>*</span></label>
+                        <input type="mail" name="mail" placeholder="Ex: monMail@FAI.com"required/><br>
+                    </div>
+                    <div>
+                        <label for="commentaire">Laissez un commentaire:</label><br>
+                        <textarea name="commentaire" placeholder="Je dépose mon avis :)" cols="40" rows="10"></textarea><br>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="checkbox" checked/>
+                        <label for="checkbox">Envoyer une copie par E-mail !</label><br>       
+                    </div>
+                    <div>
+                        <input type="submit" value="Envoyer"/>
+                        <input type="reset"/>
+                    </div>
+                </fieldset>
+            </form>
+        </section>
+    
+    <footer>
+        <ul>
+            <li><a href="www.page1.fr">Page1</a></li>
+            <li><a href="www.page2.fr">Page2</a></li>
+            <li><a href="www.page3.fr">Page3</a></li>
+            <li><a href="www.page4.fr">Page4</a></li>
+        </ul>
+    </footer>
+</body>
+</html>
